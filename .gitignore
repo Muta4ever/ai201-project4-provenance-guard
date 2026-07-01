@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database / logs
+*.db
+*.sqlite
+*.sqlite3
+provenance.db
+audit_log.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
